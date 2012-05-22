@@ -8,7 +8,7 @@ The primary usage is to study how Clojure learners write functions.
 As a side effect you can find if students have honestly completed their
 homework. It could also be used to find commonly used patterns in code
 that require refactoring. The algorithm uses a state-of-the-art
-Tree distance function that quickly finds common tree patterns. 
+tree distance function that quickly finds common tree patterns. 
 It analyzes the syntactical structure of the program and finds similar
 expressions. 
 
