@@ -1,7 +1,7 @@
 checkero
 ========
 
-Similar clojure code searcher.
+A Clojure code similarity search tool.
 
 Checkero finds common clojure source code inside a set of directories.
 The primary usage is to study how Clojure learners write functions.
