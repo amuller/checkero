@@ -113,6 +113,6 @@ contains details of the search.
 
 The student name is stated at the beginning of the file.
 Each [query] entry shows the code that was found in Student1's folder.
-Each student entry describes a close match against another student. 
+Each student entry  prepended with ">>>" describes a close match against another student. 
 The case shown is trivial, namespace definitions tend to be written in a very
 similar form. 
