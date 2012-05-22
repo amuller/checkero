@@ -50,11 +50,11 @@ For example:
     [Multiplicity]    237
 
 Here you can see:
-1) The student responsible of the common expression.
-2) Path of the expression
-3) Original expression
-4) Normalized expression (this is the expression actually used in the match)
-5) Multiplicity: The number of times this hotspot appears in the entire set of files.
+1. The student responsible of the common expression.
+2. Path of the expression
+3. Original expression
+4. Normalized expression (this is the expression actually used in the match)
+5. Multiplicity: The number of times this hotspot appears in the entire set of files.
 
 
 Friendship Graph
