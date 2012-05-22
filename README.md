@@ -3,7 +3,7 @@ checkero
 
 A Clojure code similarity search tool.
 
-Checkero finds common Clojure source code inside a set of directories. It is primarily intended to study how Clojure learners write functions. As a side effect, you can find if students have honestly completed their homework. It could also be used to find commonly used patterns in code that require refactoring. The algorithm uses a state-of-the-art tree distance function that quickly finds common tree patterns. It analyzes the syntactical structure of the program and finds similar expressions.
+Checkero finds common Clojure source code inside a set of directories. It is primarily intended to study how Clojure learners write functions. As a side effect, you can find if students have honestly completed their homework. It could also be used to find commonly used patterns in code that require refactoring. The algorithm uses a state-of-the-art tree distance function that quickly finds common tree patterns. It analyzes the syntactical structure of Clojure programs and finds similar expressions.
 
  
 
