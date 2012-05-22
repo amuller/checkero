@@ -63,9 +63,9 @@ Friendship Graph
 This section of the program output intends to predict how
 close students are to each other. The output looks like:
 
-  ###  <Student0>
-  <| 0 [Student1 4] [Student2 2] [Student3 2] [Student4 2] [Student5 2]                                                                 
-  <| 3 [Student4 1] |>
+    ###  <Student0>
+    <| 0 [Student1 4] [Student2 2] [Student3 2] [Student4 2] [Student5 2]                                       
+    <| 3 [Student4 1] |>
 
 This reads as follows: 
 
@@ -89,26 +89,26 @@ Output per Directory
 Besides the output in stdout, checkero creates a "checkero.txt" file on each student folder that
 contains details of the search. 
 
-  -------------------------------Student code: Student1
+    -------------------------------Student code: Student1
 
-  [Query]
-  Original:   (ns TareaBindingSites.core (:gen-class) (:require [clojure.java.io :as io] [clojure.string :as string]))
-  Normalized: (ns "s0" ("k1") ("k2" ["s3" "k4" "s5"] ["s6" "k4" "s7"]))
+    [Query]
+    Original:   (ns TareaBindingSites.core (:gen-class) (:require [clojure.java.io :as io] [clojure.string :as string]))
+    Normalized: (ns "s0" ("k1") ("k2" ["s3" "k4" "s5"] ["s6" "k4" "s7"]))
 
-  student3 [/path/binding.clj]
-  Distance:   0
-  Original:   (ns genome-project.binding (:gen-class) (:require [clojure.java.io :as io] [clojure.string :as string]))
-  Normalized: (ns "s0" ("k1") ("k2" ["s3" "k4" "s5"] ["s6" "k4" "s7"]))
+    >>> student3 [/path/binding.clj]
+    Distance:   0
+    Original:   (ns genome-project.binding (:gen-class) (:require [clojure.java.io :as io] [clojure.string :as string]))
+    Normalized: (ns "s0" ("k1") ("k2" ["s3" "k4" "s5"] ["s6" "k4" "s7"]))
 
-  student10 [/path/core.clj]
-  Distance:   6
-  Original:   (ns Cromossoma.core (:gen-class) (:require [clojure.java.io :as io]) (:require [clojure.string :as string]))
-  Normalized: (ns "s0" ("k1") ("k2" ["s3" "k4" "s5"]) ("k2" ["s6" "k4" "s7"]))
+    >>> student10 [/path/core.clj]
+    Distance:   6
+    Original:   (ns Cromossoma.core (:gen-class) (:require [clojure.java.io :as io]) (:require [clojure.string :as string]))
+    Normalized: (ns "s0" ("k1") ("k2" ["s3" "k4" "s5"]) ("k2" ["s6" "k4" "s7"]))
 
-  student20 [/path/core.clj]
-  Distance:   8
-  Original:   (ns homework.core (:gen-class) (:require [clojure.java.io :as io]))
-  Normalized: (ns "s0" ("k1") ("k2" ["s3" "k4" "s5"]))
+    >>> student20 [/path/core.clj]
+    Distance:   8
+    Original:   (ns homework.core (:gen-class) (:require [clojure.java.io :as io]))
+    Normalized: (ns "s0" ("k1") ("k2" ["s3" "k4" "s5"]))
 
 
 The student name is stated at the beginning of the file.
