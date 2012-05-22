@@ -93,15 +93,15 @@ contains details of the search.
   [Query]
   Original:   (ns TareaBindingSites.core (:gen-class) (:require [clojure.java.io :as io] [clojure.string :as string]))
   Normalized: (ns "s0" ("k1") ("k2" ["s3" "k4" "s5"] ["s6" "k4" "s7"]))
-  \>>> student3 [/path/binding.clj]
+  '>>> student3 [/path/binding.clj]
   Distance:   0
   Original:   (ns genome-project.binding (:gen-class) (:require [clojure.java.io :as io] [clojure.string :as string]))
   Normalized: (ns "s0" ("k1") ("k2" ["s3" "k4" "s5"] ["s6" "k4" "s7"]))
-  \>>> student10 [/path/core.clj]
+  '>>> student10 [/path/core.clj]
   Distance:   6
   Original:   (ns Cromossoma.core (:gen-class) (:require [clojure.java.io :as io]) (:require [clojure.string :as string]))
   Normalized: (ns "s0" ("k1") ("k2" ["s3" "k4" "s5"]) ("k2" ["s6" "k4" "s7"]))
-  \>>> student20 [/path/core.clj]
+  '>>> student20 [/path/core.clj]
   Distance:   8
   Original:   (ns homework.core (:gen-class) (:require [clojure.java.io :as io]))
   Normalized: (ns "s0" ("k1") ("k2" ["s3" "k4" "s5"]))
