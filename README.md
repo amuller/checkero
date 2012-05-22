@@ -42,7 +42,7 @@ Prints out the most commonly used subexpressions.
 For example:
 
   @@@ Commonly found expressions in the homework folder:
-  >>>        Student-Name
+              Student-Name
               [/path/Core.clj]
   [Original]   (defn distance [user-seq matrix] (create-Matrix user-seq matrix))
   [Normalized] (defn "s0" ["s1" "s2"] ("s3" "s1" "s2"))
