@@ -21,9 +21,9 @@ Usage
     Parameters are inserted in order:
 
     mnode: Minimum number of syntax nodes per expression to use. (short expressions are too common) 
-    h: Get the top "h" hotspot expressions in the directories
+    h: Get the top "h" hot-spot expressions in the directories
     k: Get "k" closest matches per query
-    range: Get matches that are at most n different complete subtrees. 
+    range: Get matches that are at most n different complete sub-trees. 
     source-folder: A folder that contains n folders for n students. 
                   Each sub-folder inside "source-folder" will be treated 
                   as one student homework.
@@ -33,12 +33,12 @@ Usage
 Output
 ======
 
-The script finds common subexpressions and prints some global statistics.
+The script finds common sub-expressions and prints some global statistics.
 
-Hotspots
+Hot-spots
 --------
 
-Prints out the most commonly used subexpressions.
+Prints out the most commonly used sub-expressions.
 
 For example:
 
@@ -56,7 +56,7 @@ Here you can see:
 2. Path of the expression
 3. Original expression
 4. Normalized expression (this is the expression actually used in the match)
-5. Multiplicity: The number of times this hotspot appears in the entire set of files.
+5. Multiplicity: The number of times this hot-spot appears in the entire set of files.
 
 
 Friendship Graph
@@ -77,7 +77,7 @@ For expressions that have distance 0, Student 0 has:
 * 2 matches with student2
 * 2 matches with student3
 * 2 matches with student4
-* 2 matchew with student5
+* 2 matches with student5
 
 For expressions that have distance 3, Student 0 has:
 
@@ -94,7 +94,7 @@ contains details of the search.
     -------------------------------Student code: Student1
 
     [Query]
-    Original:   (ns TareaBindingSites.core (:gen-class) (:require [clojure.java.io :as io] [clojure.string :as string]))
+    Original:   (ns tarea-binding-sites.core (:gen-class) (:require [clojure.java.io :as io] [clojure.string :as string]))
     Normalized: (ns "s0" ("k1") ("k2" ["s3" "k4" "s5"] ["s6" "k4" "s7"]))
 
     >>> student3 [/path/binding.clj]
@@ -104,7 +104,7 @@ contains details of the search.
 
     >>> student10 [/path/core.clj]
     Distance:   6
-    Original:   (ns Cromossoma.core (:gen-class) (:require [clojure.java.io :as io]) (:require [clojure.string :as string]))
+    Original:   (ns cromosoma.core (:gen-class) (:require [clojure.java.io :as io]) (:require [clojure.string :as string]))
     Normalized: (ns "s0" ("k1") ("k2" ["s3" "k4" "s5"]) ("k2" ["s6" "k4" "s7"]))
 
     >>> student20 [/path/core.clj]
