@@ -16,15 +16,15 @@ expressions.
 Usage
 -----
 
-   java -jar checkero-1.0.0-SNAPSHOT-standalone.jar 8 100 24 30 source-folder
+    java -jar checkero-1.0.0-SNAPSHOT-standalone.jar 8 100 24 30 source-folder
 
-   Parameters are inserted in order:
+    Parameters are inserted in order:
 
-   mnode: Minimum number of syntax nodes per expression to use. (short expressions are too common) 
-   h: Get the top "h" hotspot expressions in the directories
-   k: Get "k" closest matches per query
-   range: Get matches that are at most n different complete subtrees. 
-   source-folder: A folder that contains n folders for n students. 
+    mnode: Minimum number of syntax nodes per expression to use. (short expressions are too common) 
+    h: Get the top "h" hotspot expressions in the directories
+    k: Get "k" closest matches per query
+    range: Get matches that are at most n different complete subtrees. 
+    source-folder: A folder that contains n folders for n students. 
                   Each sub-folder inside "source-folder" will be treated 
                   as one student homework.
 
@@ -43,7 +43,7 @@ For example:
 
     
     @@@ Commonly found expressions in the homework folder:
-    >>>          Student-Name
+    >>>       Student-Name
               [/path/Core.clj]
     [Original]   (defn distance [user-seq matrix] (create-Matrix user-seq matrix))
     [Normalized] (defn "s0" ["s1" "s2"] ("s3" "s1" "s2"))
