@@ -16,7 +16,7 @@ expressions.
 Usage
 -----
 
-    java -jar checkero-1.0.0-SNAPSHOT-standalone.jar 8 100 24 30 source-folder
+    java -jar checkero-0.1.0-SNAPSHOT-standalone.jar 8 100 24 30 source-folder
 
     Parameters are inserted in order:
 
@@ -27,6 +27,7 @@ Usage
     source-folder: A folder that contains n folders for n students. 
                   Each sub-folder inside "source-folder" will be treated 
                   as one student homework.
+
 
 
 Output
