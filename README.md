@@ -50,6 +50,7 @@ For example:
     [Multiplicity]    237
 
 Here you can see:
+
 1. The student responsible of the common expression.
 2. Path of the expression
 3. Original expression
