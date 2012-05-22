@@ -41,12 +41,12 @@ Prints out the most commonly used subexpressions.
 
 For example:
 
-  1. @@@ Commonly found expressions in the homework folder:
-  2. >>>        Student-Name
-  3.            [/path/Core.clj]
-  4. [Original]   (defn distance [user-seq matrix] (create-Matrix user-seq matrix))
-  5. [Normalized] (defn "s0" ["s1" "s2"] ("s3" "s1" "s2"))
-  6. [Multiplicity]    237
+  @@@ Commonly found expressions in the homework folder:
+  >>>        Student-Name
+              [/path/Core.clj]
+  [Original]   (defn distance [user-seq matrix] (create-Matrix user-seq matrix))
+  [Normalized] (defn "s0" ["s1" "s2"] ("s3" "s1" "s2"))
+  [Multiplicity]    237
 
 Here you can see:
 1) The student responsible of the common expression.
@@ -89,7 +89,7 @@ Besides the output in stdout, checkero creates a "checkero.txt" file on each stu
 contains details of the search. 
 
   -------------------------------Student code: Student1
-
+<code>
   [Query]
   Original:   (ns TareaBindingSites.core (:gen-class) (:require [clojure.java.io :as io] [clojure.string :as string]))
   Normalized: (ns "s0" ("k1") ("k2" ["s3" "k4" "s5"] ["s6" "k4" "s7"]))
@@ -105,10 +105,10 @@ contains details of the search.
   Distance:   8
   Original:   (ns homework.core (:gen-class) (:require [clojure.java.io :as io]))
   Normalized: (ns "s0" ("k1") ("k2" ["s3" "k4" "s5"]))
-
+</code>
 
 The student name is stated at the beginning of the file.
 Each [query] entry shows the code that was found in Student1's folder.
-Each >>> entry describes a close match against another student. 
+Each ">>>" entry describes a close match against another student. 
 The case shown is trivial, namespace definitions tend to be written in a very
 similar form. 
