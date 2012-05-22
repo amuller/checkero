@@ -30,7 +30,7 @@ Usage
 
 
 Output
-------
+======
 
 The script finds common subexpressions and prints some global statistics.
 
